@@ -1,20 +1,17 @@
- cityList = []
+ let cityName = ""
+ cities = []
+i = 0
 
-while (location == 'true') { 
-    location = prompt("Do you have a city to enter: ")
-    if (location == "yes") {
-    city = prompt("Enter a city: ")
-    cityList.push(city)
-}  
+let doContinue = confirm (`Do you want to add another city? OK for yes or Cancel for no`)
+while (doContinue) {
+  cityName = prompt("Enter new city name: ")
+  cities.push(cityName)
+  doContinue = confirm("Do you want to add another city? OK for yes or Cancel for no")
+  }
 
-else {
-    location = false
-    }
-    }
-count = 0
-while(cityList.length !== count) {
-    let outputCity = cityList[count]
-    console.log(outputCity.toLowerCase())
-    count++
+while(i <cities.length) {
+cities[i] = cities[i].toLowerCase()
+console.log(`${cities[i]}`)
+    i ++
 }
 
