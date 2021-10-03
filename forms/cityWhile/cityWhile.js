@@ -1,3 +1,4 @@
+ /*
  cityList = []
 
 while (location == 'true') { 
@@ -18,3 +19,4 @@ while(cityList.length !== count) {
     count++
 }
 
+*/
