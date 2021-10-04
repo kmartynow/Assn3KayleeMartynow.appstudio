@@ -1,4 +1,4 @@
- let cityName = ""
+/* let cityName = ""
  cities = []
 i = 0
 
@@ -15,3 +15,4 @@ console.log(`${cities[i]}`)
     i ++
 }
 
+ */
